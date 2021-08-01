@@ -1,0 +1,27 @@
+{
+  "name": "movie-search-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "prestart": "npm test",
+    "test": "mocha --exit"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.1.2",
+    "chai": "4.2.0",
+    "chai-http": "4.2.1",
+    "mocha": "5.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-json": "^2.1.1",
+    "nodemon": "^2.0.12"
+  }
+}
